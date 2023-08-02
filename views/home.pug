@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+
+block style 
+   style
+     include ../static/style.css
+
+block content 
+    section#introSection
+          div  Welcome to Natrajan Dance Academy
+          div.small Eat Sleep Dance Repeat
+    section#missionSection 
+            h2 Our Mission 
+            div.card
+              h3 Hip-Hop  
+              div.card-box 
+                  div.card-img 
+                      img(src="/static/img/pic1.jpg")
+                  div.card-content 
+                      p WE teach hip-hop at our academy 
+            div.card
+              h3 Break Dance 
+              div.card-box 
+                  div.card-img 
+                      img(src="/static/img/pic3.jpg")
+                  div.card-content 
+                      p WE teach break dance at our academy 
+            div.card
+              h3 Ballet Dance  
+              div.card-box 
+                  div.card-img 
+                      img(src="/static/img/pic2.jpg")
+                  div.card-content 
+                      p WE teach Ballet dance at our academy 

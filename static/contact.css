@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    margin: 15px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    font-size: 18px;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    box-shadow: wheat 10px 10px 12px;
+    border-radius: 15px;
+    outline: none;    
+}
+.btn{
+    padding: 6px 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: wheat 5px 5px 5px;
+}
+.btn:hover{
+    background-color: rgb(206, 206, 205);
+}
